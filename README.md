@@ -1,6 +1,6 @@
 # url_shortener
 
-This is the url shortner project made with ```NodeJS``` , ```ejs``` and ```mogoDB```
+This is the url shortner project made with ```NodeJS``` , ```ejs``` and ```mongoDB```
 
 I have used mongoDB local server.
 
