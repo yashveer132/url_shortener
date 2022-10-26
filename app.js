@@ -3,6 +3,7 @@ const app = express();
 const expressEJs = require('express-ejs-layouts');
 const connectDB = require('./configuration/Dbconnect');
 const URLS = require('./models/ShortURL');
+const cors=require('cors')
 
 //connect to database
 connectDB();
@@ -25,6 +26,8 @@ app.use((req, res, next) => {
     req.protocol + '://' + req.get('host') + req.originalUrl;
   next();
 });
+
+app.use(cors());
 
 //pages
 app.get('/', (req, res) => {

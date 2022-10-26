@@ -23,11 +23,11 @@
     },
     "homepage": "https://github.com/RamanSharma100/url-shortner-nodejs#readme",
     "dependencies": {
+        "cors": "^2.8.5",
         "ejs": "^3.1.2",
         "express": "^4.17.1",
         "express-ejs-layouts": "^2.5.0",
         "mongoose": "^5.9.13",
         "nodemon": "^2.0.3"
-    },
-    "devDependencies": {}
+    }
 }
