@@ -1,0 +1,33 @@
+{
+    "name": "url-shortner",
+    "version": "1.0.0",
+    "description": "this is the url shortner website created by Rmaan Sharma - Owner of Fullyworld Web Tutorials",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "start:dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RamanSharma100/url-shortner-nodejs.git"
+    },
+    "keywords": [
+        "url shortner nodejs",
+        "url shortner using nodejs and mongodb",
+        "nodejs mongodb url shortner"
+    ],
+    "author": "Raman Sharma",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RamanSharma100/url-shortner-nodejs/issues"
+    },
+    "homepage": "https://github.com/RamanSharma100/url-shortner-nodejs#readme",
+    "dependencies": {
+        "ejs": "^3.1.2",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "mongoose": "^5.9.13",
+        "nodemon": "^2.0.3"
+    },
+    "devDependencies": {}
+}
